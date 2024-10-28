@@ -1,0 +1,104 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Files built by popular Visual Studio add-ons
+.vs/
+.vscode/
+*.ncrunchsolution
+*.ncrunchproject
+*.ncrunchcoverage
+*.ncrunch*
+*.g.cs
+*.g.i.cs
+_ReSharper*
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+.idea/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+packages/
+
+# NPM Packages
+node_modules/
+
+# Web Files (for API, you might use client-side libraries)
+wwwroot/
+dist/
+
+# Publish folder
+publish/
+
+# Logs
+*.log
+logs/
+
+# Database
+*.mdf
+*.ldf
+*.ndf
+
+# Entity Framework Migrations
+Migrations/
+
+# Local test databases
+*.vscode
+
+# Visual Studio profiler
+*.vsp
+*.vspx
+*.sap
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Coverage Files
+*.coverage
+*.coveragexml
+
+# StyleCop
+StyleCop.Cache
+
+# JetBrains Rider
+.idea/
+.idea_modules/
+
+# DotNet specific items
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Static files
+staticfiles/
+
+# Azure Functions artifacts
+local.settings.json
+host.json

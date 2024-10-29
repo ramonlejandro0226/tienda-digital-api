@@ -44,6 +44,19 @@ namespace api_tienda_digital.Controllers
             return product;
         }
 
+        [HttpGet("byname/{name}")]
+        public async Task<ActionResult<IEnumerable<Product>>> GetProductsByName(string name)
+        {
+            var products = await _context.Products
+                .Where(p => p.Name.ToLower().Contains(name.ToLower()))
+                .ToListAsync();
+
+            // Ya no es necesario verificar si la lista está vacía o nula
+            return products;
+        }
+
+
+
         // PUT: api/Products/5
         [Authorize(Roles = "admin")]
         [HttpPut("{id}")]
